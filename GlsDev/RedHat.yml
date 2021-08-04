@@ -8,3 +8,5 @@ action:
 swap:
   Red Hat[^ ]*: Red{nbsp}Hat
   Enterprise Linux: Enterprise{nbsp}Linux
+  Red Hat Ansible Automation Platform: Red{nbsp}Hat Ansible Automation Platform
+  Red Hat ansible automation platform: Red{nbsp}Hat Ansible Automation Platform

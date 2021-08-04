@@ -1,4 +1,10 @@
-[https://github.com/errata-ai/vale]Vale is an open-source, command-line linter for prose. It's fast, syntax-aware, and extensible.
+https://github.com/errata-ai/vale[Vale] is an open-source, command-line linter for prose. It's fast, syntax-aware, and extensible.
+
+
+[NOTE]
+This repo is meant to be installed into the styles directory of your `$HOME/.config/vale/styles/`. This is not the https://github.com/errata-ai/vale[VALE] repository. It is a GLS suppliment to the linter files.
+
+
 
 Install the Vale repo to your home/bin directory and unzip it to your home/.config directory.
 
