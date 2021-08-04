@@ -13,7 +13,7 @@ $ tar xvzf vale_2.7.1_Linux_64-bit.tar.gz -C /home/$USER/.config
 
 https://github.com/errata-ai/vale/[release_version]
 
-Create a .vale.ini file and keep it in the home directory.
+Create a .vale.ini file and keep it in the home directory. (Or move the one from this directory which is the one Ive used)
 
 StylesPath = /home/dspohn/.config/vale/styles
 MinAlertLevel = error
