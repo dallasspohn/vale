@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: 'https://style.google.com/style/word-list'
+level: error
+ignorecase: false
+action:
+  name: replace
+swap:
+  Red Hat[^ ]*: Red{nbsp}Hat
+  Enterprise Linux: Enterprise{nbsp}Linux

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# vale
-vale styles gls course work
-=======
 # TODO
 
 The team needs to check the consistency of private automation hub. Some things to consider:
@@ -47,13 +43,7 @@ guides/en-US/sg-chapters/topics/execution/handling-ge.adoc
 wget http://materials.example.com/additional_files/ansible-automation-platform-20-early-access/ee-supported-rhel8.tar
 
 
-START
-  setup_check_ansible ${target}
-  download_lab_materials ${labname}
-  setup_check_podman ${target}
-
-FINISH
-  remove_lab_materials ${labname}
 
 
->>>>>>> cf42322 (My first commit)
+
+

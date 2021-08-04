@@ -1,0 +1,16 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+#link: 'https://stylepedia.net/style/#f'
+level: error
+ignorecase: false
+action:
+  name: replace
+swap:
+  peristent: persistent
+  dowloads: downloads
+  dowload: download
+  befor: before
+  comming: coming
+  avaliable: available
+  RHCS: Red Hat Ceph Storage
+  adhoc: ad hoc

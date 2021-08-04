@@ -1,0 +1,11 @@
+extends: substitution
+message: "Hyphenate %s"
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  'time consuming': time-consuming
+  'high quality': high-quality
+  'low quality': low-quality
+  'handoff': hand-off

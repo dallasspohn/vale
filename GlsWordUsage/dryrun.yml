@@ -1,0 +1,6 @@
+extends: sequence
+message: "Use 'dry run', not dryrun, for the noun phrase."
+level: error
+tokens:
+  - tag: NN
+    pattern: dryrun
