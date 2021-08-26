@@ -7,7 +7,7 @@ Move `~/.vale.ini` into home directory.
 
 
 
-== The Rest
+== The Rest
 https://github.com/errata-ai/vale[Vale] is an open-source, command-line linter for prose. It's fast, syntax-aware, and extensible.
 
 
