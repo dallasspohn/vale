@@ -1,7 +1,0 @@
-extends: sequence
-message: "Use life cycle, because life cycle is a noun phrase."
-link: 'https://stylepedia.net/style/#l'
-level: error
-tokens:
-  - tag: NN
-    pattern: lifecycle

@@ -1,9 +1,0 @@
-extends: existence
-message: |
-    Per IBM Style Guide, avoid using 'while' except to refer to the passage of
-    a specific period of time.
-link: 'https://stylepedia.net/style/#c'
-level: warning
-ignorecase: true
-tokens:
-    - while

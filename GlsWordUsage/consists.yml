@@ -1,8 +1,0 @@
-extends: substitution
-message: "Of is the correct preposition to follow the consist verb"
-level: error
-ignorecase: true
-action:
-  name: replace
-swap:
-  'consist[^ ]* in': consists of

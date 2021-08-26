@@ -1,9 +1,0 @@
-extends: substitution
-message: "Use '%s' instead of '%s'."
-link: 'https://stylepedia.net/style/#c'
-level: warning
-ignorecase: true
-action:
-  name: replace
-swap:
-  'in order for': for

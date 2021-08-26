@@ -1,7 +1,0 @@
-extends: sequence
-message: "Use time-boxed %[2]s, because time-boxed is an adjective."
-level: error
-tokens:
-  - tag: JJ
-    pattern: timeboxed
-  - tag: NN

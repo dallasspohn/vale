@@ -1,7 +1,0 @@
-extends: sequence
-message: "Use 'real time', instead of realtime."
-link: 'https://stylepedia.net/style/#r'
-level: error
-tokens:
-  - tag: NN
-    pattern: realtime

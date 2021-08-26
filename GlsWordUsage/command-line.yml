@@ -1,9 +1,0 @@
-extends: sequence
-message: "Use command-line %[3]s, because command-line is an adjective."
-level: error
-tokens:
-  - tag: NN
-    pattern: command
-  - tag: NN
-    pattern: line
-  - tag: NN
