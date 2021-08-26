@@ -1,3 +1,13 @@
+== For workstation build.
+Move `vale` into `~/bin` directory
+Move styles into `~/.config/vale/styles'
+Move `~/.vale.ini` into home directory.
+
+
+
+
+
+== The Rest
 https://github.com/errata-ai/vale[Vale] is an open-source, command-line linter for prose. It's fast, syntax-aware, and extensible.
 
 
@@ -9,7 +19,7 @@ This repo is meant to be installed into the styles directory of your `$HOME/.con
 Install the Vale repo to your home/bin directory and unzip it to your home/.config directory.
 
 $ wget https://github.com/errata-ai/vale/releases/download/v2.7.1/vale_2.7.1_Linux_64-bit.tar.gz
-$ tar xvzf vale_2.7.1_Linux_64-bit.tar.gz -C /home/$USER/.config 
+$ tar xvzf vale_2.7.1_Linux_64-bit.tar.gz -C /home/$USER/.config
 
 https://github.com/errata-ai/vale/[release_version]
 
@@ -48,8 +58,8 @@ To Run it:
 └──╼ (spohnz/author-update) $vale preserve-lecture-content.xml
 
  preserve-lecture-content.xml
- 14:7  error  Don't start a sentence with     write-good.ThereIs 
-              'There are'.                                       
+ 14:7  error  Don't start a sentence with     write-good.ThereIs
+              'There are'.
 
 ✖ 1 error, 0 warnings and 0 suggestions in 1 file.
 ┌─[✗]─[dspohn@rhel8]─[~/git-repos/CL260/guides/en-US/sg-chapters/topics/tuning]
