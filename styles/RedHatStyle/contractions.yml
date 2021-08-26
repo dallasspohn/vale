@@ -1,0 +1,16 @@
+extends: existence
+message: "Contraction found: '%s'.  Replace '%s' with something else."
+level: error
+nonword: true
+ignorecase: true
+tokens:
+    - "[a-z]+n't"
+    - "e[.]g[.]"
+    - "etc[.]"
+    - "i[.]e[.]"
+    - "it's"
+    - "that's"
+    - "there's"
+    - "vs[.]"
+    - "you'll"
+    - "you're"

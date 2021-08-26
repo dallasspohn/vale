@@ -1,0 +1,6 @@
+extends: sequence
+message: "Use '%s' instead of '%s'."
+tokens:
+  - tag: JJ|JJR|JJS
+    pattern: backend
+    negate: true

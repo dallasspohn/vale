@@ -1,0 +1,7 @@
+extends: existence
+message: "Only use 'may' should go here..."
+link: 'https://stylepedia.net/style/#m'
+level: warning
+ignorecase: true
+tokens:
+    - may

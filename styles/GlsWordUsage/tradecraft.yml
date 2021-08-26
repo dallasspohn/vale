@@ -1,0 +1,9 @@
+extends: substitution
+message: "Do not use %s.  Re-word with '%s' instead."
+link: 'https://stylepedia.net/style/#c'
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  'tradecraft': 'skills|techniques|practices'

@@ -1,0 +1,31 @@
+extends: substitution
+message: "Use '%s' instead, in the phrase '%s'."
+link: 'https://stylepedia.net/style/#c'
+level: error
+ignorecase: false
+action:
+  name: replace
+swap:
+  '(?:[^\s]+) Discovery practices': 'discovery practices'
+  '(?:[^\s]+) Discovery practice': 'discovery practice'
+  '(?:[^\s]+) Discovery Loop practice': 'discovery practice'
+  '(?:[^\s]+) Discovery Loop practices': 'discovery practices'
+  '(?:[^\s]+) Delivery practices': 'delivery practices'
+  '(?:[^\s]+) Delivery practice': 'delivery practice'
+  '(?:[^\s]+) Delivery Loop practice': 'delivery practice'
+  '(?:[^\s]+) Delivery Loop practices': 'delivery practices'
+  '(?:[^\s]+) Options practices': 'options practices'
+  '(?:[^\s]+) Options practice': 'options practice'
+  '(?:[^\s]+) Options Pivot practice': 'options practice'
+  '(?:[^\s]+) Options Pivot practices': 'options practices'
+  '(?:[^\s]+) Foundation practices': 'foundation practices'
+  '(?:[^\s]+) Foundation practice': 'foundation practice'
+  'foundation section': 'foundation part'
+  'foundation layer': 'foundation part'
+  'foundational technical practice': 'technical foundation practice'
+  'foundational technical practices': 'technical foundation practices'
+  'foundational cultural practice': 'cultural foundation practice'
+  'foundational cultural practices': 'cultural foundation practices'
+  'foundational culture practice': 'cultural foundation practice'
+  'foundational culture practices': 'cultural foundation practices'
+  'Mobius loop': 'Mobius Loop'
