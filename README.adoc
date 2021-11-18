@@ -1,4 +1,4 @@
-== For workstation build.
+== For workstation build. #This was made for vale on our development workstations in the classrooms.
 Move `vale` into `~/bin` directory
 Move styles into `~/.config/vale/styles'
 Move `~/.vale.ini` into home directory.
