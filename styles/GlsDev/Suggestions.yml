@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
 #link: 'https://stylepedia.net/style/#f'  ** The #f means it is looking in all the "f"F words.
-level: error
+level: suggestion #warning error
 ignorecase: true
 action:
   name: replace
@@ -23,7 +23,7 @@ swap:
   starts up: activate or invokes
   we suggest: recommend
   commandline: command-line
-  once: when or after [Use "once" only to mean "one time." Do not use as a conjunction to mean "after" or "when."] 
+  once: when or after [Use "once" only to mean "one time." Do not use as a conjunction to mean "after" or "when."]
   ssh: SSH
   ad-hoc: ad hoc
   RHCS: Red Hat Ceph Storage
@@ -31,3 +31,5 @@ swap:
   check: review, verify, inspect, validate, determine
   on-line: online
   since: because
+  click on: click
+  will: Avoid using the use of will. According to our TE, is better to use the present in the writing.

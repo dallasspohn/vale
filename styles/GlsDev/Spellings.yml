@@ -1,6 +1,6 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
-#link: 'https://stylepedia.net/style/#f'
+dicpath: ./spelling
 level: error
 ignorecase: false
 action:

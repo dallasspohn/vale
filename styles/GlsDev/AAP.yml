@@ -1,0 +1,16 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: 'https://style.google.com/style/word-list'
+level: warning
+ignorecase: false
+action:
+  name: replace
+swap:
+  Tower: automation controller
+  Ansible Tower: automation controller
+  Automation Controller: automation controller
+  Red{nbsp}Hat Automation Controller: automation controller
+  Ansible Automation Controller: automation controller
+  RHAC: automation controller
+  RHAAC: automation controller
+  AAC: automation controller
