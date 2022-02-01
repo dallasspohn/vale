@@ -6,11 +6,74 @@ ignorecase: false
 action:
   name: replace
 swap:
+  bad: good
   Tower: automation controller
   Ansible Tower: automation controller
   Automation Controller: automation controller
+  Red{nbsp}Hat Automation Controller: automation controller
+  Red{nbsp}Hat Ansible Automation Controller: automation controller
   Red{nbsp}Hat Automation Controller: automation controller
   Ansible Automation Controller: automation controller
   RHAC: automation controller
   RHAAC: automation controller
   AAC: automation controller
+  Red{nbsp}Hat Automation Engines: automation engines
+  Automation Execution Environment: automation execution environment
+  Red{nbsp}Hat Automation Execution Environment: automation execution environment
+  Ansible Automation Execution Environment: automation execution environment
+  AEE: automation execution environment
+  RHAEE: automation execution environment
+  Red{nbsp}Hat Automation Services Catalog: automation services catalog
+  Red{nbsp}Hat automation content navigator: automation content navigator
+  Red{nbsp}Hat Automation Content Navigator: automation content navigator
+  Red{nbsp}Hat Ansible Automation Content Navigator: automation content navigator
+  Ansible Automation Content Navigator: automation content navigator
+  RHACN: automation content navigator
+  ACN: automation content navigator
+  Red{nbsp}Hat Ansible Automation Mesh: automation mesh
+  Ansible Automation Mesh: automation mesh
+  Automation Mesh: automation mesh
+  AAM: automation mesh
+  AM: automation mesh
+  RHAAM: automation mesh
+  Execution Environment Builder: execution environment builder
+  Red{nbsp}Hat Ansible Execution Environment Builder: execution environment builder
+  Ansible Execution Environment Builder: execution environment builder
+  RHEEB: execution environment builder
+  AAPEEB: execution environment builder
+  RHEEB: execution environment builder
+  Red{nbsp}Hat Ansible Content Collections: Ansible Content Collections
+  Ansible content collections: Ansible Content Collections
+  ACC: Ansible Content Collections
+  RHACC: Ansible Content Collections
+  RHACCC: Red{nbsp}Hat Ansible Certified Content Collection
+  ACCC: Red{nbsp}Hat Ansible Certified Content Collection
+  RHACC: Red{nbsp}Hat Ansible Certified Content
+  ACC: Red{nbsp}Hat Ansible Certified Content
+  Red{nbsp}Hat Automation Hub: Ansible automation hub
+  Ansible Automation Hub: Ansible automation hub
+  AAH: Ansible automation hub
+  Red{nbsp}Hat Private Automation Hub: private automation hub
+  Private Automation Hub: private automation hub
+  PAH: private automation hub
+  Ansible Content Tools: Ansible content tools
+  Red{nbsp}Hat Ansible content tools: Ansible content tools
+  Red{nbsp}Hat Ansible Content Tools: Ansible content tools
+  ACT: Ansible content tools
+  RHACT: Ansible content tools
+  Ansible Automation Platform operator: Red{nbsp}Hat Ansible Automation Platform Operator
+  Ansible operator: Red{nbsp}Hat Ansible Automation Platform Operator
+  Ansible Operator: Red{nbsp}Hat Ansible Automation Platform Operator
+  RHAAPO: Red{nbsp}Hat Ansible Automation Platform Operator
+  AAPO: Red{nbsp}Hat Ansible Automation Platform Operator
+  Ansible Automation Platform resource operator: Red{nbsp}Hat Ansible Automation Platform Resource Operator
+  Ansible resource operator: Red{nbsp}Hat Ansible Automation Platform Resource Operator
+  Ansible Resource Operator: Red{nbsp}Hat Ansible Automation Platform Resource Operator
+  RHAAPRO: Red{nbsp}Hat Ansible Automation Platform Resource Operator
+  AAPRO: Red{nbsp}Hat Ansible Automation Platform Resource Operator
+  RHANA: Red{nbsp}Hat Ansible Network Automation
+  Ansible network automation: Red{nbsp}Hat Ansible Network Automation
+  Red{nbsp}Hat Ansible Playbook: Ansible Playbook
+  RHAP: Ansible Playbook
+  Red{nbsp}Hat Ansible Roles: Ansible Roles
+  RHAR: Ansible Roles
