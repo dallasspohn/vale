@@ -6,3 +6,6 @@ match: $title
 style: AP
 exceptions:
   - the
+  - in
+  - 'automation controller'
+  - With

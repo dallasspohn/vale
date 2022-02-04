@@ -1,0 +1,73 @@
+https://github.com/errata-ai/vale[Vale] is an open-source, command-line linter for prose. It's fast, syntax-aware, and extensible.
+
+
+[NOTE]
+This repo is meant to be installed into the styles directory of your `$HOME/.config/vale/styles/`. This is not the https://github.com/errata-ai/vale[VALE] repository. It is a GLS suppliment to the linter files.
+
+
+
+Install the Vale repo to your home/bin directory and unzip it to your home/.config directory.
+
+$ wget https://github.com/errata-ai/vale/releases/download/v2.7.1/vale_2.7.1_Linux_64-bit.tar.gz
+$ tar xvzf vale_2.7.1_Linux_64-bit.tar.gz -C /home/$USER/.config 
+
+https://github.com/errata-ai/vale/[release_version]
+
+Create a .vale.ini file and keep it in the home directory. (Or move the one from this directory which is the one Ive used)
+
+StylesPath = /home/dspohn/.config/vale/styles
+MinAlertLevel = error
+
+[*.md]
+BasedOnStyles = Vale, write-good
+
+[*.xml]
+BasedOnStyles = GLS, Vale, write-good
+#Transform = /home/dspohn/.config/vale/docbook-xsl-snapshot/html/docbook.xsl
+Transform = /usr/share/sgml/docbook/xsl-stylesheets-1.79.2/html/docbook.xsl
+
+write-good.TooWordy=suggestion
+
+I think there is a GLS style out there but did not locate it.
+
+Styles
+*You’ll need to create a vale/styles directory inside the .config directory.*
+
+Clone some style directories from https://github.com/errata-ai/styles inside $USER/.config/vale/styles:
+git clone https://github.com/errata-ai/write-good.git
+Rename good-write to write-good2 and copy the write-good inside of it to the styles directory. Note that the style directories must be copied because Vale does not follow symbolic links.
+
+DO250 has some styles already built up that works but is for asciidoc. Some like RedHat Branding would be useful.
+https://github.com/RedHatTraining/DO250/tree/main/styles
+
+
+
+To Run it:
+
+┌─[✗]─[dspohn@rhel8]─[~/git-repos/CL260/guides/en-US/sg-chapters/topics/tuning]
+└──╼ (spohnz/author-update) $vale preserve-lecture-content.xml
+
+ preserve-lecture-content.xml
+ 14:7  error  Don't start a sentence with     write-good.ThereIs 
+              'There are'.                                       
+
+✖ 1 error, 0 warnings and 0 suggestions in 1 file.
+┌─[✗]─[dspohn@rhel8]─[~/git-repos/CL260/guides/en-US/sg-chapters/topics/tuning]
+└──╼ (spohnz/author-update) $
+
+
+
+https://gist.github.com/dallasspohn/a67414d43b0630f4b05988a0227e68b3
+
+
+NOTES:
+1. I believe vale expects the config to be in your home directory if it can not find it somewhere else.
+1b.) It will look in the current working directory, or if not found, keep moving up a directory looking for it (up to 6).
+guides/en-US/sg-chapters/topics/<BLAH>
+
+
+Discussion:
+1(summary): where to put the ini file, and make sure everyone is using the same "thing".
+2(summary): where to store styles, which sytles, and the "central" location for them.
+3. Installing vale, should just be extracting the tar file and putting it in the bin directory.
+4.(The XSL file to transform XML into HTML should also be available, but we use the Flamel packages (could be the redhat-training-xsl package)

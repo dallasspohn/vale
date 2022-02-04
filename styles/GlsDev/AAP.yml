@@ -6,7 +6,6 @@ ignorecase: false
 action:
   name: replace
 swap:
-  bad: good
   Tower: automation controller
   Ansible Tower: automation controller
   Automation Controller: automation controller
