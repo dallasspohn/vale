@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
 #link: 'https://stylepedia.net/style/#f'  ** The #f means it is looking in all the "f"F words.
-level: suggestion #warning error
+level: warning
 ignorecase: true
 action:
   name: replace
