@@ -1,9 +1,0 @@
-extends: existence
-message: |
-    Do not use 'may' except to imply permission. Otherwise, use 'might' or
-    'can'.
-link: 'https://stylepedia.net/style/#c'
-level: warning
-ignorecase: true
-tokens:
-    - may

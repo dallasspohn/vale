@@ -6,6 +6,6 @@ ignorecase: true
 tokens:
     - appears to be
     - arguably
-    - will
+#   - will
     - master
-    - click on
+#    - click on

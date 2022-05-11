@@ -1,0 +1,127 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: 'https://style.google.com/style/word-list'
+level: warning
+ignorecase: false
+action:
+  name: replace
+swap:
+  above: preceding or previous
+  actually: <something else>
+  aforementioned: previous
+  a large number of: many
+  allows you to: <something else>
+  allows the user to: <something else>
+  already exist: exist
+  already exists: exists
+  a.m.: AM
+  a number of: various
+  are unable to: cannot
+  is unable to: cannot
+  a variety of: various
+  backwards compatible: compatible with earlier versions
+  backwards-compatible: compatible with earlier versions
+  based upon: based on
+  below: following or later
+  blacklist: blocklist or denylist
+  built upon: built on
+  can not: cannot
+  carry out configuration of: configure
+  carry out installation of: install
+  carry out setup of: set up
+  carry out testing of: test
+#  click on: click
+  co-locate: colocate
+  co-location: colocation
+  create a backup of: back up
+  creates a backup of: backs up
+  #create a new: create a or create an
+  dependant: dependent
+  desire: want
+  different than: different from
+  e.g.: for example
+  ensure: ensure that
+  Enterprise Linux: Enterprise{nbsp}Linux
+  etc.: and so on
+  Fiber Channel: Fibre Channel
+  fill in: complete
+  fill out: complete
+  forwards compatible: compatible with later versions
+  forwards-compatible: compatible with later versions
+  he: they
+  she: they
+  his: their
+  her: their
+  I: <something else>
+  we: <something else>
+  us: <something else>
+  our: <something else>
+  i.e.: that is
+  in conjunction with: with
+  in details: in detail
+  information on: information about
+  later on: later
+  leave out: omit
+  leverage: use
+  life cycle: lifecycle
+  located at: at
+  located in: in
+  login to: log in to
+  log into: log in to
+  loose: <needs moved to a different file word confusion>
+  lose: <needs moved to a different file word confusion>
+  lower-case: lowercase
+  make a backup of: back up
+  take a backup of: back up
+  make changes to: change
+  making changes to: changing
+  manger: manager
+  man hours: labor hours or person hours
+  master: main, primary, controller, leader
+#  may: might
+  newer version: later version
+  (s): s without parenthises
+  Openshift: OpenShift
+  open up: open
+  perform an analysis on: analyze
+  perform analysis on: analyze
+  perform an analysis of: analyze
+  perform analysis of: analyze
+  perform configuration of: configure
+  perform installation of: install
+  perform setup of: set up
+  perform testing of: test
+  perform the update on: update
+  please: <delete>
+  p.m.: PM
+  previous version: earlier version
+  older version: earlier version
+  principal: <needs moved to a different file word confusion>
+  principle: <needs moved to a different file word confusion>
+  print out: print
+  plugin: plug-in
+  really: <needs moved to a different file>
+  Red Hat: Red{nbsp}Hat #Branding
+  revert back: revert
+  sanity check: <needs writer intervention>
+  sanity test: <needs writer intervention>
+  segregate: separate
+  segregation: separation or segmentation
+  set-up: setup <n, adj>, set up <v>
+  slave: worker, child, helper, replica, secondary
+  standalone: stand-alone
+  the majority of: most
+  the the: the
+  to backup: to back up
+  to login: to log in
+  to setup: to set up
+  try and: try to
+#  upon: on
+  upper-case: uppercase
+  user friendly: <needs writer intervention>
+  user-friendly: <needs writer intervention>
+  very: <delete>
+  voluminous: large
+  whitelist: allowlist
+  will have to: must
+  wish: want
